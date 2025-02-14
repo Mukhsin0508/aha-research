@@ -1,9 +1,8 @@
-// import React from 'react'
-import Logo from '../assets/logo/logo.svg'
 import Burger from '../assets/icons/menu-button.svg'
 import NavigatorModal from '../Modal/NavigatorModal'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,8 +14,7 @@ function Navbar() {
       <nav className=" z-50 w-[328px] h-[46px] xl:w-[1200px]    flex flex-row items-center  justify-between  ">
         {/* mobile */}
         <NavLink to={"/"}>
-
-        <img className=' w-[126px]  h-[41.35px] ' src={Logo} alt="" />
+          <img className=' w-[126px]  h-[41.35px] ' src={'logo.svg'} alt="" />
         </NavLink>
         {/*  laptop navigator */}
         <div className=' flex flex-row items-center gap-6 ml-[150px]  '>
@@ -29,7 +27,7 @@ function Navbar() {
             <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#"> Контакты</a>
           </div>
           {/* button */}
-          <button className='  cursor-pointer sm:hidden xl:flex w-[189px] h-[46px] rounded-full flex flex-row items-center justify-center gap-10 px-[14px] bg-black text-white   '>
+          <button className='  cursor-pointer sm:hidden xl:flex w-[189px] h-[46px] rounded-full flex flex-row items-center justify-center gap-10 px-[14px] bg-black text-white hover:scale-105 active:scale-95 duration-200'>
             <h1 className=' font-medium text-sm leading-[16.8px]'> Звонок + Консультация</h1>
           </button>
 

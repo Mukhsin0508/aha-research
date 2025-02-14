@@ -1,11 +1,9 @@
-// import React from 'react'
-import LogoWhite from '../assets/logo/LogoWhite.png'
 function Footer() {
   return (
     <div className="  w-full h-[791px] xl:h-[470px]  pt-[60px] xl:pt-[90px] flex  flex-col items-center bg-blue -mt-[40px] ">
 
       <div className=" w-[328px] h-full flex flex-col items-start gap-[40px]  xl:w-[1200px] xl:flex-row xl:justify-between   ">
-        <img src={LogoWhite} className=' w-[126px] h-[41px]  xl:' alt="" />
+        <img src={'logo_white.svg'} className=' w-[126px] h-[41px]  xl:' alt="" />
 
         <div className=' w-full h-[526px] flex flex-col items-start gap-10 xl:flex-row xl:w-[495px] xl:h-[267px]  '>
           <div className=' w-full  flex flex-col items-start gap-[32px] '>
@@ -20,8 +18,8 @@ function Footer() {
 
           <div className=' w-full  flex flex-col items-start gap-[32px] xl:min-w-[255px] '>
             <h1 className=' text-[24px] leading-[28px] font-medium text-[#FEFEFE]'>Связаться с нами</h1>
-            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Номер: +998 78 113 44 55</h2>
-            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Email: info@afs-research.com </h2>
+            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Номер: +998 97 007 71 39</h2>
+            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Email: info@aha-research.uz </h2>
             <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Адрес: Ташкент, Мирзо-Улугбекский район, проспект Мустакиллик, 59</h2>
           </div>
 

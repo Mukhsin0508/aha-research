@@ -17,12 +17,12 @@ function TargetAudience() {
                 <img className=' xl:hidden w-[329px] max-w-[329px] h-[620px]  top-[166px] left-0  absolute   ' src={Linsm} alt="" />
                 <img className=' sm:hidden xl:flex w-[451px] max-w-[451px] h-[620px]  top-[166px] left-0  absolute  xl:left-[550px]  ' src={Lins} alt="" />
 
-                <h1 className=" text-[32px] leading-[44px]  text-[#161616] text-start xl:text-[48px] xl:leading-[67px] xl:text-center  ">Целевая аудитория</h1>
-                <p className=" text-[16px] leading-[22px] text-[#494949]  text-start   xl:leading-[25px]  xl:w-[334px] xl:absolute xl:left-3 xl:top-[270px]">Aha Research работает с компаниями, которые хотят лучше понять свои рынки, клиентов и конкурентов.</p>
+                <h1 data-aos='fade-down' className=" text-[32px] leading-[44px]  text-[#161616] text-start xl:text-[48px] xl:leading-[67px] xl:text-center  ">Целевая аудитория</h1>
+                <p data-aos='fade-right' className=" text-[16px] leading-[22px] text-[#494949]  text-start   xl:leading-[25px]  xl:w-[334px] xl:absolute xl:left-3 xl:top-[270px]">Aha Research работает с компаниями, которые хотят лучше понять свои рынки, клиентов и конкурентов.</p>
 
                 <div className=' flex flex-col  w-[329px] h-[560px] gap-[43px]   mt-[52px] relative z-[1] xl:left-[550px] xl:w-[650px]  xl:pt-16  xl:h-[600px]'>
 
-                    <div className=' flex flex-row items-center  gap-3 w-[327px] h-[105px] rounded-[12px]  ml-[1px] bg-[#F7F7FF] py-2  px-3 xl:w-[592px]  xl:ml-[3px] xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
+                    <div data-aos='fade-left' className=' flex flex-row items-center  gap-3 w-[327px] h-[105px] rounded-[12px]  ml-[1px] bg-[#F7F7FF] py-2  px-3 xl:w-[592px]  xl:ml-[3px] xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
                         <button><img className=' w-[37px] h-[33px] xl:w-[64px]  xl:h-[56px] ' src={T1} alt="" /></button>
                         <div className=' flex flex-col items-start gap-2 w-[222px] xl:w-[416px] xl:h-[84px]   '>
                             <h1 className=' text-lg  leading-[25.2px] font-semibold  text-blue  xl:text-lg xl:font-semibold '>Локальный бизнес</h1>
@@ -31,7 +31,7 @@ function TargetAudience() {
 
                     </div>
 
-                    <div className=' flex flex-row items-center  gap-3 w-[273px] h-[130px] rounded-[12px]  ml-[55px] bg-[#F7F7FF] py-2  px-3 xl:w-[496px]  xl:ml-[155px] xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
+                    <div data-aos='fade-left' data-aos-delay='300' className=' flex flex-row items-center  gap-3 w-[273px] h-[130px] rounded-[12px]  ml-[55px] bg-[#F7F7FF] py-2  px-3 xl:w-[496px]  xl:ml-[155px] xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
                         <button><img className=' w-[50px] h-[50px]  xl:w-[86px] xl:h-[86px] ' src={T2} alt="" /></button>
                         <div className=' flex flex-col items-start gap-2 w-[195px]  h-[114px]  xl:w-[416px] xl:h-[84px]  '>
                             <h1 className=' text-lg  leading-[25.2px] font-semibold  text-blue  xl:text-lg xl:font-semibold '>Средний и крупный бизнес</h1>
@@ -41,7 +41,7 @@ function TargetAudience() {
                     </div>
 
 
-                    <div className=' flex flex-row items-center  gap-3 w-[327px] h-[91px] rounded-[12px]  ml-[1px] bg-[#F7F7FF] py-2  px-3 xl:w-[479px]  xl:h-[120px] xl:ml-[55px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
+                    <div data-aos='fade-left' data-aos-delay='600' className=' flex flex-row items-center  gap-3 w-[327px] h-[91px] rounded-[12px]  ml-[1px] bg-[#F7F7FF] py-2  px-3 xl:w-[479px]  xl:h-[120px] xl:ml-[55px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
                         <button><img className=' w-[50px] h-[50px]  xl:w-[86px] xl:h-[86px]' src={T3} alt="" /></button>
                         <div className=' flex flex-col items-start gap-2 w-[248px] xl:w-[416px] xl:h-[84px]  '>
                             <h1 className=' text-lg  leading-[25.2px] font-semibold  text-blue xl:text-lg xl:font-semibold  '>Международные компании</h1>
@@ -51,7 +51,7 @@ function TargetAudience() {
                     </div>
 
 
-                    <div className=' flex flex-row items-center  gap-3 w-[267px] h-[105px] rounded-[12px]  ml-[55px] bg-[#F7F7FF] py-2  px-3 xl:w-[534px] xl:ml-[110px]  xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
+                    <div data-aos='fade-left' data-aos-delay='900' className=' flex flex-row items-center  gap-3 w-[267px] h-[105px] rounded-[12px]  ml-[55px] bg-[#F7F7FF] py-2  px-3 xl:w-[534px] xl:ml-[110px]  xl:h-[122px] xl:rounded-[32px] xl:py-[18px] xl:px-[30px] xl:gap-[30px]'>
                         <button><img className=' w-[50px] h-[50px] xl:w-[86px] xl:h-[86px] ' src={T4} alt="" /></button>
                         <div className=' flex flex-col items-start gap-2 w-[189px]  h-[89px] xl:w-[416px] xl:h-[84px] '>
                             <h1 className=' text-lg  leading-[25.2px] font-semibold  text-blue  xl:text-lg xl:font-semibold'>Стартапы</h1>

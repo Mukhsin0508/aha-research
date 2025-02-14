@@ -21,38 +21,38 @@ const FeedbackClients = () => {
       <div className=" w-[330px]  h-full xl:w-full  relative   xl:flex xl:justify-center xl:pt-[130px] ">
         <div className=" w-full h-[193px] xl:w-[522px]  xl:h-[224px] xl:items-center flex flex-col items-start gap-[15px]">
 
-          <h1 className="  text-[32px] leading-[44.8px] xl:text-center xl:text-[48px] xl:leading-[67px]  text-[#161616]  ">Отзывы наших клиентов</h1>
-          <p className="  text-[16px]  leading-[22px] xl:text-center xl:text-lg xl:leading-[25px] xl:w-[480px] text-gray500  ">Мы гордимся тем, что помогаем бизнесу принимать обоснованные решения, находить ключевые инсайты и достигать успеха.</p>
+          <h1 data-aos='zoom-in' className="  text-[32px] leading-[44.8px] xl:text-center xl:text-[48px] xl:leading-[67px]  text-[#161616]  ">Отзывы наших клиентов</h1>
+          <p data-aos='zoom-out' className="  text-[16px]  leading-[22px] xl:text-center xl:text-lg xl:leading-[25px] xl:w-[480px] text-gray500  ">Мы гордимся тем, что помогаем бизнесу принимать обоснованные решения, находить ключевые инсайты и достигать успеха.</p>
         </div>
 
         <div className=' right-0 top-[325px]   w-[156px] h-[156px] xl:right-[350px] xl:top-[370px] flex  absolute items-center  justify-center rounded-full  bg-[#CAF0F84D]'>
-          <div className='  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  bg-[#90E0EF33]'>
-            <img src={O2} className=' w-[78px] h-[78px] rounded-full bg-cover  object-cover ' alt="" />
+          <div data-aos='fade-up' className='  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  bg-[#90E0EF33]'>
+            <img  src={O2} className=' w-[78px] h-[78px] rounded-full bg-cover  object-cover ' alt="" />
           </div>
         </div>
       </div>
 
       <div className=' sm:hidden xl:flex   right-[105px] top-[120px] z-10 absolute  w-[127px] h-[127px] flex  items-center  justify-center rounded-full  '>
-        <img src={O1} className=' w-[119px] h-[119px]  rounded-full bg-cover  object-cover ' alt="" />
+        <img data-aos='fade-left'src={O1} className=' w-[119px] h-[119px]  rounded-full bg-cover  object-cover ' alt="" />
       </div>
 
       <div className='   right-0 top-[200px] xl:right-[315px] xl:top-[15px] absolute  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  '>
-        <img src={O3} className=' w-[80px] h-[80px] xl:w-[102px] xl:h-[102px] rounded-full bg-cover  object-cover ' alt="" />
+        <img data-aos='fade-down' src={O3} className=' w-[80px] h-[80px] xl:w-[102px] xl:h-[102px] rounded-full bg-cover  object-cover ' alt="" />
       </div>
 
 
 
       <div className=' left-1 top-[240px] xl:left-[227px] xl:top-[115px] absolute  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  '>
-        <img src={O4} className=' w-[102px] h-[102px] rounded-full bg-cover  object-cover ' alt="" />
+        <img data-aos='fade-right' src={O4} className=' w-[102px] h-[102px] rounded-full bg-cover  object-cover ' alt="" />
       </div>
 
       <div className='  sm:hidden xl:flex  left-2 top-[320px]  absolute  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  '>
-        <img src={O5} className=' w-[102px] h-[102px] rounded-full bg-cover  object-cover ' alt="" />
+        <img data-aos='fade-up' src={O5} className=' w-[102px] h-[102px] rounded-full bg-cover  object-cover ' alt="" />
       </div>
 
 
       <div className=' left-0 top-[430px] xl:left-[65px] xl:top-[5px] z-10 absolute  w-[117px] h-[117px] flex  items-center  justify-center rounded-full  '>
-        <img src={O6} className=' w-[80px] h-[80px] rounded-full bg-cover  object-cover ' alt="" />
+        <img data-aos='fade-down' src={O6} className=' w-[80px] h-[80px] rounded-full bg-cover  object-cover ' alt="" />
       </div>
 
       </div>

@@ -15,14 +15,14 @@ function Banner() {
             <div className="  flex flex-col   items-center  justify-between w-[328px] h-[396px] xl:w-[1200px] xl:h-[700px] m-auto   ">
                 {/*  banner text  */}
                 <div className=" flex flex-col items-center gap-3 w-full h-[163px]">
-                    <p className="  font-light text-sm xl:text-lg   leading-[16.8px] xl:leading-[21.6px] text-center w-full text-gray500">Инсайты, которые двигают бизнес вперёд</p>
-                    <h1 className="    text-[48px] xl:text-[96px]  xl:leading-[134.4px] leading-[67.2px] text-center ">Команда Aha Research</h1>
+                    <p data-aos='fade-down' className="  font-light text-sm xl:text-lg   leading-[16.8px] xl:leading-[21.6px] text-center w-full text-gray500">Инсайты, которые двигают бизнес вперёд</p>
+                    <h1 data-aos='fade-up' className="    text-[48px] xl:text-[96px]  xl:leading-[134.4px] leading-[67.2px] text-center ">Команда Aha Research</h1>
                 </div>
                 {/* banner images */}
 
                 <div className=" relative w-[328px] h-[193.3px]   xl:w-[1060px] xl:h-[700px]  ">
 
-                    <img className='  -mt-[75px] xl:-mt-[63px] w-[328px] min-w-[328px] h-[315px] xl:w-[1060px] xl:h-[700px] ' src={ImageContainer} alt="" />
+                    <img data-aos='zoom-in' data-aos-delay='800' className='-mt-[75px] xl:-mt-[63px] w-[328px] min-w-[328px] h-[315px] xl:w-[1060px] xl:h-[700px] ' src={ImageContainer} alt="" />
                     {/* <img className=' w-[138.8px] h-[168.2px] absolute bottom-0 left-[95px] z-[20]' src={Container} alt="" />
                     <img className=' w-[287.5px] h-[119.3px] absolute bottom-0 left-[8px] top-6 z-[0]' src={Lin} alt="" />
                     <img className=' w-[42.7px] h-[42.7px] absolute bottom-0 left-[258.3px] top-[50px] z-[10]' src={Contemplative} alt="" />
@@ -33,8 +33,8 @@ function Banner() {
                     <img className=' w-[49.9px] h-[49.9px] absolute bottom-0 left-[13.84px] top-[115px] z-[10]' src={Blazer} alt="" /> */}
 
 
-                    <h1 className=' sm:hidden  xl:flex w-[277px] text-gray500  text-sm leading-[16.8px]  absolute -left-20  top-28 '>Aha Research раскрывает моменты «Ага!», которые вдохновляют на успех.</h1>
-                    <h1 className=' sm:hidden xl:flex w-[277px] text-gray500  text-sm leading-[16.8px]  absolute  -right-[60px]   bottom-[225px] '>Мы превращаем данные в стратегические решения, помогая бизнесу расти и процветать.</h1>
+                    <h1 data-aos='fade-right' data-aos-delay='400' className=' sm:hidden  xl:flex w-[277px] text-gray500  text-sm leading-[16.8px]  absolute -left-20  top-28 '>Aha Research раскрывает моменты «Ага!», которые вдохновляют на успех.</h1>
+                    <h1 data-aos='fade-left' data-aos-delay='400' className=' sm:hidden xl:flex w-[277px] text-gray500  text-sm leading-[16.8px]  absolute  -right-[60px]   bottom-[225px] '>Мы превращаем данные в стратегические решения, помогая бизнесу расти и процветать.</h1>
                 </div>
             </div>
 
