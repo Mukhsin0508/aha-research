@@ -7,7 +7,7 @@ function Development() {
   return (
     <div
       id="history"
-      className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center"
+      className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center mt-20"
     >
       {/* telefon va taxtlar qismi  */}
       <div className=" w-[329px] h-full xl:w-[1200px] relative">
@@ -28,21 +28,30 @@ function Development() {
           src={DevImage}
           alt=""
         />
+
+        <div>
         <h1 data-aos='fade-left' className=" text-[14px] leading-[16px] font-sans flex flex-row items-center gap-2 absolute top-[226px]  left-[130px] xl:text-lg xl:text-[#161616] xl:font-medium xl:left-[780px] xl:top-[285px]">
           {" "}
           <img className=" w-5 h-5 xl:w-10 xl:h-10 animate-pulse" src={Tochka} alt="" />
           Решения
         </h1>
+        </div>
+
+        <div>
         <h1 data-aos='fade-left' data-aos-delay='100' className=" text-[14px] leading-[16px] font-sans flex flex-row items-center gap-2 absolute top-[282px]  left-[110px] xl:text-lg xl:text-[#161616] xl:font-medium xl:left-[695px] xl:top-[365px]">
           {" "}
           <img className=" w-5 h-5 xl:w-10 xl:h-10 animate-pulse" src={Tochka} alt="" />
           Инсайты
         </h1>
+        </div>
+
+        <div>
         <h1 data-aos='fade-left' data-aos-delay='200' className=" text-[14px] leading-[16px] font-sans flex flex-row items-center gap-2 absolute top-[365px]  left-[86px] xl:text-lg xl:text-[#161616] xl:font-medium xl:left-[650px] xl:top-[490px]">
           {" "}
           <img className=" w-5 h-5 xl:w-10 xl:h-10 animate-pulse " src={Tochka} alt="" />
-          Инсайты
+          Исследования
         </h1>
+        </div>
       </div>
 
       {/*  statistika */}

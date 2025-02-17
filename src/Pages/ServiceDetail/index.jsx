@@ -96,25 +96,24 @@ const ServiceDetail = () => {
     const { id } = useParams()
     const {title, description, items} = services.find(item => item.id == id)
 
-    return <div className='w-full h-auto relative flex flex-col items-center bg-blue200 pt-32 xl:pt-[150px] -mt-20 xl:-mt-32 pb-5'>
-    <img src={DeteilPageImg} className='absolute left-0 top-0' alt="" />
+    return <div className='w-full h-auto relative flex flex-col items-center bg-blue200 pt-32 xl:pt-[150px] -mt-20 xl:-mt-32 pb-5 z-[1]'>
+            <img src={DeteilPageImg} className='absolute left-0 top-0 -z-[1]' alt="" />
 
-    <div className="w-[328px] h-[731px] xl:w-[1200px]  flex flex-col items-start xl:items-end gap-[30px] relative">
-        <div className="flex flex-col items-start gap-[15px] w-full h-[126px] xl:items-center">
-            <h1 className="text-[32px] leading-[44px] xl:text-[48px] xl:leading-[67px] text-center text-[#161616]">
+        <div className="flex flex-col items-start gap-[15px] w-full xl:items-center mb-10">
+            <h1 className="text-[32px] leading-[44px] xl:text-[48px] xl:leading-[67px] text-center text-[#161616] max-w-[600px]">
                 {title}
             </h1>
-            <p className="xl:hidden text-[16px] leading-[22px] text-gray500">
-                Цель: {description}
-            </p>
         </div>
 
-        <p className="sm:hidden xl:flex text-[18px] leading-[25px] text-gray500 w-[384px] absolute left-36 top-28">
+        <div className="flex  justify-between w-full container gap-20">
+        <div className="flex justify-center w-full">
+        <p className="text-[18px] leading-[25px] text-gray500 max-w-[384px]">
             Цель: {description}
         </p>
+        </div>
 
-        <div className="w-full h-[575px] xl:w-[612px] xl:h-[447px] flex flex-col items-start gap-[28px]">
-            <h1 className="w-full h-[46px] xl:h-[53px] border-b border-blue px-2 py-3 xl:px-3 text-blue text-lg leading-[21px] font-medium xl:text-[24px] xl:leading-[28px]">
+        <div className="w-full flex flex-col items-start gap-[28px] max-w-[600px]">
+            <h1 className="w-full h-[46px] xl:h-[53px] border-b border-blue px-2  text-blue text-lg leading-[21px] font-medium xl:text-[24px] xl:leading-[28px]">
                 Услуги:
             </h1>
             <div className="w-full h-[501px] xl:h-[366px] flex flex-col items-start gap-[15px]">
@@ -128,7 +127,7 @@ const ServiceDetail = () => {
                 ))}
             </div>
         </div>
-    </div>
+        </div>
 </div>
 }
 
