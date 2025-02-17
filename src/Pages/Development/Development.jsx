@@ -6,7 +6,7 @@ import CountUp from "../../components/countup-text";
 function Development() {
   return (
     <div
-      id=""
+      id="history"
       className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center"
     >
       {/* telefon va taxtlar qismi  */}

@@ -2,9 +2,10 @@ import { Route, Routes } from "react-router-dom"
 import Footer from "./layout/Footer"
 import Navbar from "./layout/Navbar"
 import Home from "./Pages/Home/Home"
-import AnalysisDeteil from "./Pages/Analysis/AnalysisDeteil/AnalysisDeteil"
+// import AnalysisDeteil from "./Pages/Analysis/AnalysisDeteil/AnalysisDeteil"
 import Aos from "aos"
 import 'aos/dist/aos.css'; 
+import ServiceDetail from "./Pages/ServiceDetail"
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="analysdeteil" element={<AnalysisDeteil />}/>
+        <Route path="/service/:id" element={<ServiceDetail />}/>
       </Routes>
 
       <Footer />

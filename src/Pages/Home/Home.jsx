@@ -18,7 +18,6 @@ function Home() {
       <Analysis />
       <FeedbackClients />
       <TargetAudience />
-
     </div>
   )
 }

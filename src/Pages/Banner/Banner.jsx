@@ -10,7 +10,7 @@ import ImageContainer from '../../assets/img/Image Container.svg'
 
 function Banner() {
     return (
-        <div id='#' className=" w-[97%]  bg-blue200 rounded-b-[24px] pt-[70px]">
+        <div id='about_company' className=" w-[97%]  bg-blue200 rounded-b-[24px] pt-[70px]">
             {/* bannet text & image */}
             <div className="  flex flex-col   items-center  justify-between w-[328px] h-[396px] xl:w-[1200px] xl:h-[700px] m-auto   ">
                 {/*  banner text  */}

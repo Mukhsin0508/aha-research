@@ -20,16 +20,16 @@ function Navbar() {
         <div className=' flex flex-row items-center gap-6 ml-[150px]  '>
           {/* navigator  */}
           <div className='  sm:hidden xl:flex w-[622px] h-[46px] rounded-full flex flex-row items-center justify-center gap-10 px-[14px] bg-white   '>
-            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#"> О компании</a>
-            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#услуги"> Наши услуги</a>
-            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#"> Партнеры</a>
-            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#"> История</a>
-            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#"> Контакты</a>
+            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#about_company"> О компании</a>
+            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#services"> Наши услуги</a>
+            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#partners"> Партнеры</a>
+            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#history"> История</a>
+            <a className=' font-medium cursor-pointer text-sm leading-[16.8px]' href="#contacts"> Контакты</a>
           </div>
           {/* button */}
-          <button className='  cursor-pointer sm:hidden xl:flex w-[189px] h-[46px] rounded-full flex flex-row items-center justify-center gap-10 px-[14px] bg-black text-white hover:scale-105 active:scale-95 duration-200'>
+          <a href='https://t.me/Shohista_Sattarova' target='_blank' className='  cursor-pointer sm:hidden xl:flex w-[189px] h-[46px] rounded-full flex flex-row items-center justify-center gap-10 px-[14px] bg-black text-white hover:scale-105 active:scale-95 duration-200'>
             <h1 className=' font-medium text-sm leading-[16.8px]'> Звонок + Консультация</h1>
-          </button>
+          </a>
 
 
         </div>

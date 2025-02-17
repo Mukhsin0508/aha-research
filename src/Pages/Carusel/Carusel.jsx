@@ -19,7 +19,7 @@ export default function Carusel() {
   }, []);
 
   return (
-    <div className="w-full h-32 xl:h-[250px] flex items-center overflow-hidden bg-gray-100 py-4 relative">
+    <div id='partners' className="w-full h-32 xl:h-[250px] flex items-center overflow-hidden bg-gray-100 py-4 relative">
       <div
         ref={scrollRef}
         className="flex w-max gap-6 xl:gap-16 animate-[scroll_15s_linear_infinite]"
