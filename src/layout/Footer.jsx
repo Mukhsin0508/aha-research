@@ -20,7 +20,7 @@ function Footer() {
             <h1 className=' text-[24px] leading-[28px] font-medium text-[#FEFEFE]'>Связаться с нами</h1>
             <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Номер: +998 97 007 71 39</h2>
             <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Email: info@aha-research.uz </h2>
-            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Адрес: Ташкент, Мирзо-Улугбекский район, проспект Мустакиллик, 59</h2>
+            <h2 className=' text-lg leading-[21px]  text-[#FEFEFE]'>Адрес: Ташкент, Мирзо-Улугбекский район, проспект Алпомиш, 38</h2>
           </div>
 
         </div>
