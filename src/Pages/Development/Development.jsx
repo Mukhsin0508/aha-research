@@ -7,7 +7,7 @@ function Development() {
   return (
     <div
       id="history"
-      className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center mt-20"
+      className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center"
     >
       {/* telefon va taxtlar qismi  */}
       <div className=" w-[329px] h-full xl:w-[1200px] relative">

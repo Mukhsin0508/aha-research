@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className=" flex flex-col items-center w-full">
       <Banner />
-      {/* <Carusel /> */}
+      <Carusel />
       <Development />
       <Analysis />
       <FeedbackClients />
