@@ -1,9 +1,11 @@
+import LogoWhite from '../assets/logo/logo_white.svg'
+
 function Footer() {
   return (
     <div id='contacts' className="  w-full h-[791px] xl:h-[470px]  pt-[60px] xl:pt-[90px] flex  flex-col items-center bg-blue -mt-[40px] ">
 
       <div className=" w-[328px] h-full flex flex-col items-start gap-[40px]  xl:w-[1200px] xl:flex-row xl:justify-between   ">
-        <img src={'logo_white.svg'} className=' w-[126px] h-[41px]  xl:' alt="" />
+        <img src={LogoWhite} className=' w-[126px] h-[41px]  xl:' alt="" />
 
         <div className=' w-full h-[526px] flex flex-col items-start gap-10 xl:flex-row xl:w-[495px] xl:h-[267px]  '>
           <div className=' w-full  flex flex-col items-start gap-[32px] '>

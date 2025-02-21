@@ -2,6 +2,7 @@ import Burger from '../assets/icons/menu-button.svg'
 import NavigatorModal from '../Modal/NavigatorModal'
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import LogoSvg from '../assets/logo/logo.svg'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ function Navbar() {
       <nav className=" z-50 w-[328px] h-[46px] xl:w-[1200px]    flex flex-row items-center  justify-between  ">
         {/* mobile */}
         <NavLink to={"/"}>
-          <img className=' w-[126px]  h-[41.35px] ' src={'logo.svg'} alt="" />
+          <img className=' w-[126px]  h-[41.35px] ' src={LogoSvg} alt="" />
         </NavLink>
         {/*  laptop navigator */}
         <div className=' flex flex-row items-center gap-6 ml-[150px]  '>
