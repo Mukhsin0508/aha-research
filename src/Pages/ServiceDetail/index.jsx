@@ -103,7 +103,7 @@ const ServiceDetail = () => {
   const { title, description, items } = services.find((item) => item.id == id);
 
   return (
-    <div className="w-full h-auto relative flex flex-col items-center bg-blue200 pt-32 xl:pt-[150px] -mt-20 xl:-mt-32 pb-5 z-[1]">
+    <div className="w-full h-auto overflow-hidden relative flex flex-col items-center bg-blue200 pt-32 xl:pt-[150px] -mt-20 xl:-mt-32 pb-5 z-[1]">
       <img
         src={DeteilPageImg}
         className="absolute left-0 top-0 -z-[1]"
