@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css";
 import Logo1 from "../../assets/logosBrend/logo_1.jpg";
 import Logo2 from "../../assets/logosBrend/logo_2.jpg";
 import Logo3 from "../../assets/logosBrend/logo_3.jpg";
-import Logo4 from "../../assets/logosBrend/logo_4.jpg";
+import Logo4 from "../../assets/logosBrend/logo_4.png";
 import Logo5 from "../../assets/logosBrend/logo_5.jpg";
 import Logo6 from "../../assets/logosBrend/logo_6.png";
 import Logo7 from "../../assets/logosBrend/logo_7.png";
