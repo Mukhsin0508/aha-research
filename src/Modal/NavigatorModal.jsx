@@ -29,7 +29,7 @@ function NavigatorModal({ isOpen, setIsOpen }) {
         <div className=" w-full h-full  gap-[40px] flex flex-col xl:w-[948px] xl:min-w-[948px] xl:bg-[#4541F1] xl:px-[80px] xl:py-10 ">
           <div className=" w-full flex  flex-row items-center gap-5 justify-end">
             <h1 className=" sm:hidden xl:flex text-[24px] leading-[28px] font-medium  text-white w-full text-end ">
-              Navigation
+              Меню
             </h1>
 
             <button className=" w-[189px] xl:min-w-[200px] h-[46px] bg-white text-black rounded-full px-[10px] py-2 text-sm leading-[16px] font-medium">
@@ -44,7 +44,7 @@ function NavigatorModal({ isOpen, setIsOpen }) {
             </button>
           </div>
           <h1 className=" xl:hidden text-[24px] leading-[28px] font-medium  text-white w-full text-end ">
-            Navigation
+            Меню
           </h1>
           <ul className="  w-full  h-[286px] flex flex-col items-end  xl:items-start  gap-[24px] ">
             <li>
