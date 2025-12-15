@@ -17,7 +17,7 @@ export default function Carusel() {
 
   useEffect(() => {
     if (scrollRef.current) {
-      scrollRef.current.style.animation = "scroll 15s linear infinite"; // 15s tezlik biroz sekinroq
+      scrollRef.current.style.animation = "scroll 15s linear infinite";
     }
   }, []);
 

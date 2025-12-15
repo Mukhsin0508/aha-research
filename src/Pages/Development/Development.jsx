@@ -1,15 +1,15 @@
-// import React from 'react'
 import DevImage from "../../assets/img/Development.jpg";
 import Dev from "../../assets/img/Dev2.svg";
 import Tochka from "../../assets/icons/Tocka.svg";
 import CountUp from "../../components/countup-text";
+
 function Development() {
   return (
     <div
       id="history"
       className=" w-full min-h-screen h-[1200px] xl:h-[1200px]   bg-blue200 flex  flex-col  items-center"
     >
-      {/* telefon va taxtlar qismi  */}
+      {}
       <div className=" w-[329px] h-full xl:w-[1200px] relative">
         <h1 data-aos='zoom-in' data-aos-delay='100' className=" text-[32px] leading-[44px] font-sans xl:text-[48px] xl:leading-[67px] z-50 relative xl:max-w-[500px] text-center mx-auto mt-10 font-semibold">
           Решения для роста вашего бизнеса

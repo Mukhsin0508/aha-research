@@ -1,4 +1,3 @@
-// import React from 'react';
 import TextBackroundM from '../../assets/img/TextBackroundM.png'
 import TextBackround from '../../assets/img/TextBackround.png'
 import O1 from '../../assets/img/O1.png'

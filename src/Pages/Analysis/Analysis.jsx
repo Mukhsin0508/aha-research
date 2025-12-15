@@ -1,5 +1,4 @@
-// import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TopIcon from '../../assets/icons/IconTop.svg';
 import Card from '../../assets/img/card1.jpg';
 import Card2 from '../../assets/img/card2.jpg';
@@ -100,7 +99,7 @@ function Analysis() {
                 <div 
                 data-aos='fade-right'
                     style={{
-                        backgroundImage: `url(${Card})`, // URL formatda yozish kerak
+                        backgroundImage: `url(${Card})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -120,7 +119,7 @@ function Analysis() {
                 <div
                     data-aos='fade-left'
                     style={{
-                        backgroundImage: `url(${Card2})`, // URL formatda yozish kerak
+                        backgroundImage: `url(${Card2})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -140,7 +139,7 @@ function Analysis() {
                 <div 
                 data-aos='fade-right'
                     style={{
-                        backgroundImage: `url(${Card3})`, // URL formatda yozish kerak
+                        backgroundImage: `url(${Card3})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -160,7 +159,7 @@ function Analysis() {
                 <div
                 data-aos='fade-left'
                     style={{
-                        backgroundImage: `url(${Card4})`, // URL formatda yozish kerak
+                        backgroundImage: `url(${Card4})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
