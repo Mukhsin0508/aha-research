@@ -1,4 +1,3 @@
-//   import React from 'react'
 // import Container from '../../assets/img/BannerImage/Container.png'
 // import Lin from '../../assets/img/BannerImage/Line.png'
 // import Contemplative from '../../assets/img/BannerImage/img-Contemplative Man in Suit.png'
